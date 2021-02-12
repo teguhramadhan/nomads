@@ -1,0 +1,166 @@
+body {
+    background-color: #E4E6EB;
+    font-family: 'Assistant', sans-serif;
+    color: #071C4D;
+}
+
+// Navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            font-weight: 400;
+            color: #071C4D;
+
+            &.active {
+                font-weight: 700;
+                color: #071C4D !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0px; 
+
+}
+
+.btn-login {
+    background-color: #071C4D;
+    color: #FFFFFF;
+
+    &:hover {
+    background-color: #1E3771;
+    color: #FFFFFF;
+    }
+}
+
+// Header
+header {
+    margin-top: -70px;
+    padding: 180px 0px 166px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+
+    h1, p {
+        color: #FFFFFF;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-family: 'Assistant', sans-serif;
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #FFFFFF;
+        border-radius: 0px;
+
+        &:hover {
+            background-color: #FFBB87;
+            color: #FFFFFF;
+        }
+    }
+}
+
+// Statistics
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        padding-top: 15px;
+        padding-left: 40px;
+        background-color: #FFFFFF;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+// Popular
+.section-popular {
+    min-height: 540px;
+    background-color: #051334;
+    margin-top: -50px;
+    margin-bottom: -250px;
+
+    .section-popular-heading {
+        margin-top: 150px;
+
+        h2,p {
+            color: #FFFFFF;
+        }
+    
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    
+        p {
+            font-size: 18px;
+        }
+    }
+
+}
+
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #000000;
+            color: #FFFFFF;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country {
+            font-family: 'Assistant', sans-serif;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+
+        .travel-location {
+            font-family: 'Assistant', sans-serif;
+            font-size: 26px;
+            color: #FFFFFF;
+        }
+
+        .travel-button {
+            .btn-travel-detail {
+                background-color: #FF9E53;
+                color: #FFFFFF;
+                border-radius: 0px;
+
+                &:hover {
+                    background-color: #FFC395;
+                    color: #343434;
+                }
+            }
+        }
+    }
+}

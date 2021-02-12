@@ -1,0 +1,148 @@
+body {
+  background-color: #E4E6EB;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 400;
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 700;
+  color: #071C4D !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0px;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #FFFFFF;
+}
+
+.btn-login:hover {
+  background-color: #1E3771;
+  color: #FFFFFF;
+}
+
+header {
+  margin-top: -70px;
+  padding: 180px 0px 166px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #FFFFFF;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-family: 'Assistant', sans-serif;
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  border-radius: 0px;
+}
+
+header .btn-get-started:hover {
+  background-color: #FFBB87;
+  color: #FFFFFF;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  padding-left: 40px;
+  background-color: #FFFFFF;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -250px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #FFFFFF;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-family: 'Assistant', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-family: 'Assistant', sans-serif;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-detail {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  border-radius: 0px;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-detail:hover {
+  background-color: #FFC395;
+  color: #343434;
+}
+/*# sourceMappingURL=main.css.map */
