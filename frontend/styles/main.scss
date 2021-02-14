@@ -1,5 +1,5 @@
 body {
-    background-color: #E4E6EB;
+    background-color: #FFFFFF;
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
 }
@@ -162,5 +162,108 @@ header {
                 }
             }
         }
+    }
+}
+
+.section-networks {
+    background-color: #FFFFFF;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+}
+
+.section-testimonial-heading { 
+    background: linear-gradient(#FFF 0%, #F7F9FF 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2 {
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 380px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        .testimonial {
+            font-weight: 200;
+            font-size: 26px;
+            color: #6e6e6e;
+            min-height: 160px;
+        }
+
+        .trip-to {
+            font-weight: normal;
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #FFFFFF;
+        border-radius: 0px;
+
+        &:hover {
+            background-color: #FFBB87;
+            color: #FFFFFF;
+        }
+    }
+
+    .btn-need-help {
+        background-color: #F2F2F2;
+        color: #C3C3C3;
+        border-radius: 0px;
+
+        &:hover {
+            background-color: #FFFCFC;
+            color: #C3C3C3;
+        }
+    }
+}
+
+.section-footer {
+    a {
+        color: #071C4D;
     }
 }
